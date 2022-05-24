@@ -12,5 +12,5 @@ public class TestController {
     }
 
     @RequestMapping(value = "/edit", method = RequestMethod.POST)
-    public String edit(){return "Edited Successfully";}
+    public void edit(){return;}
 }
