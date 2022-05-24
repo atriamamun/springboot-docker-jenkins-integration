@@ -10,4 +10,7 @@ public class TestController {
     public String add(){
         return "Hello World";
     }
+
+    @RequestMapping(value = "/edit", method = RequestMethod.POST)
+    public String edit(){return "Edited Successfully";}
 }
