@@ -11,6 +11,6 @@ public class TestController {
         return "Hello World";
     }
 
-    @RequestMapping(value = "/edit", method = RequestMethod.POST)
+    @RequestMapping(value = "/edit/", method = RequestMethod.POST)
     public String edit(){return null;}
 }
